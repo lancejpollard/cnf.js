@@ -1,7 +1,7 @@
 
 # CNF.js
 
-Convert propositional formula trees into [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form) (CNF).
+Convert propositional formula trees into [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form) (CNF). Might also convert [predicate formulae](https://en.wikipedia.org/wiki/First-order_logic) to CNF as well.
 
 ```js
 const CNF = require('@lancejpollard/cnf.js')
@@ -76,3 +76,8 @@ Every propositional formula can be converted into an equivalent formula that is 
 | ¬(p∧q)≡¬p∨¬q<br/>¬(p∨q)≡¬p∧¬q | De Morgan's laws |
 | p∨(p∧q)≡p<br/>p∧(p∨q)≡p | Absorption laws |
 | p∨¬p≡⊤<br/>p∧¬p≡⊥ | Negation laws |
+
+## HT
+
+- [How to convert a propositional formula to conjunctive normal form (CNF)?](https://stackoverflow.com/a/9533548/169992)
+- [How to convert to conjunctive normal form?](https://math.stackexchange.com/questions/214338/how-to-convert-to-conjunctive-normal-form)
