@@ -1,6 +1,8 @@
 
 # CNF.js
 
+NOT WORKING, WORK IN PROGRESS.
+
 Convert propositional formula trees into [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form) (CNF). Might also convert [predicate formulae](https://en.wikipedia.org/wiki/First-order_logic) to CNF as well.
 
 ```js
